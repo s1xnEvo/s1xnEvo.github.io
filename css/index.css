@@ -5483,23 +5483,8 @@ body[data-type='about'] #web_bg {
   pointer-events: none;
   z-index: 3;
 }
-#about-page .author-content-item-group.column.mapAndInfo {
-  width: 100%;
-}
-#about-page .author-content-item-group.column {
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -o-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-}
-#about-page .author-content-item.map {
-  width: 50%;
-}
-#about-page .author-content-item.selfInfo {
-  height: 100%;
-  width: 49%;
+ {
+  body: 1;
 }
 @-moz-keyframes loading-bar {
   0% {
@@ -23814,27 +23799,33 @@ i.bber-gotobb {
   color: var(--anzhiyu-ahoverbg);
   border-radius: 10px;
 }
+
 #page #article-container .bangumi-tabs .bangumi-tab {
   border-bottom: none;
   border-radius: 10px;
 }
+
 #page #article-container .bangumi-tabs a.bangumi-tab:hover {
   text-decoration: none !important;
   border-radius: 10px;
   column-gap: var(--anzhiyu-ahoverbg);
 }
+
 #page #article-container .bangumi-pagination a.bangumi-button {
   border-bottom: none;
   border-radius: 10px;
 }
+
 .bangumi-button:hover {
   background: var(--anzhiyu-theme) !important;
   border-radius: 10px !important;
   color: var(--anzhiyu-ahoverbg) !important;
 }
+
 a.bangumi-button.bangumi-nextpage:hover {
   text-decoration: none !important;
 }
+
 .bangumi-button {
   padding: 5px 10px !important;
 }
@@ -23842,19 +23833,22 @@ a.bangumi-button.bangumi-nextpage:hover {
 a.bangumi-tab {
   padding: 5px 10px !important;
 }
+
 svg.icon.faa-tada {
   font-size: 1.1em;
 }
+
 .bangumi-info-item {
   border-right: 1px solid #f2b94b;
 }
+
 .bangumi-info-item span {
   color: #f2b94b;
 }
+
 .bangumi-info-item em {
   color: #f2b94b;
 }
-
 /*哔哩哔哩视频适配*/
 .aspect-ratio {
   position: relative;
